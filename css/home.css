@@ -56,3 +56,24 @@
     width: fit-content;
     padding: 10px 20px;
 }
+
+.task-section{
+    flex: 1;
+    background: #CCC;
+    margin: 10px;
+    overflow: auto; 
+    scroll-behavior: auto;
+}
+
+.task-section::-webkit-scrollbar {
+    display: none;
+  }
+
+.project-section{
+    flex: 1;
+    background: #CCC;
+    margin: 10px;
+    margin-top: 0;
+    overflow: auto;
+    scroll-behavior: auto;
+}
