@@ -2,7 +2,7 @@
 .individual-task{
     display: flex;
     flex-direction: row;
-    width: 95%;
+    width: 92%;
     height: 70px;
     border: 1px solid black;
     margin: 5px 2%;
@@ -61,6 +61,7 @@
     flex: 1;
     background: #CCC;
     margin: 10px;
+    align-items: center;
     overflow: auto; 
     scroll-behavior: auto;
 }

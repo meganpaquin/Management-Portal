@@ -55,7 +55,7 @@
 .contents{
     background-color: #FFF;
     color: black;
-    height: 100%;
+    height: calc(100vh - 100px)
 }
 
 
